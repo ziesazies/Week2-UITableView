@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="19529" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="19519"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" rowHeight="1026" id="KGk-i7-Jjw" customClass="RestaurantTitleCell" customModule="Week2_LearnUITableView" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="374" height="1026"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <rect key="frame" x="0.0" y="0.0" width="374" height="1026"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="13a-5l-a4W">
+                        <rect key="frame" x="0.0" y="0.0" width="3764.5" height="1026"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="y77-IO-uhd">
+                                <rect key="frame" x="20" y="32" width="90" height="26"/>
+                                <color key="backgroundColor" red="1" green="0.90196078430000004" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="90" id="RpJ-tO-yOw"/>
+                                    <constraint firstAttribute="height" constant="26" id="yHh-AU-R4c"/>
+                                </constraints>
+                                <color key="tintColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="plain" title="RAVAL">
+                                    <fontDescription key="titleFontDescription" type="system" pointSize="14"/>
+                                </buttonConfiguration>
+                            </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="LA GRINGA" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="vpZ-wE-H1X">
+                                <rect key="frame" x="20" y="80" width="154.5" height="36"/>
+                                <fontDescription key="fontDescription" type="system" weight="medium" pointSize="30"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ZO6-wy-eSJ">
+                                <rect key="frame" x="20" y="153" width="3724.5" height="38.5"/>
+                                <string key="text">Carrer de la Lleialtat, 16
+08001 Barcelona</string>
+                                <fontDescription key="fontDescription" type="system" weight="light" pointSize="16"/>
+                                <color key="textColor" red="0.32941176470588235" green="0.32941176470588235" blue="0.32941176470588235" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="sPi-VS-Bfg">
+                                <rect key="frame" x="20" y="197.5" width="3724.5" height="38.5"/>
+                                <string key="text">Mon-Fri: 19:00 - 0:00h
+Sat-Sun: 12:00 - 16:00h</string>
+                                <fontDescription key="fontDescription" type="system" weight="light" pointSize="16"/>
+                                <color key="textColor" red="0.3294117647" green="0.3294117647" blue="0.3294117647" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Image" translatesAutoresizingMaskIntoConstraints="NO" id="jeu-ob-hhj">
+                                <rect key="frame" x="0.0" y="256" width="375" height="274"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="274" id="Vdf-BF-TIb"/>
+                                    <constraint firstAttribute="width" constant="375" id="zTq-tO-AsM"/>
+                                </constraints>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Order" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="BPn-ef-C3Q">
+                                <rect key="frame" x="20" y="554" width="48.5" height="23"/>
+                                <fontDescription key="fontDescription" type="system" weight="light" pointSize="19"/>
+                                <color key="textColor" red="0.0" green="0.20784313730000001" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="-1" estimatedSectionHeaderHeight="-1" sectionFooterHeight="-1" estimatedSectionFooterHeight="-1" translatesAutoresizingMaskIntoConstraints="NO" id="mwU-L5-VnJ" customClass="MyOwnTableView" customModule="Week2_LearnUITableView" customModuleProvider="target">
+                                <rect key="frame" x="20" y="595" width="3724.5" height="335.5"/>
+                                <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                            </tableView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="About" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="IHS-O8-fi8">
+                                <rect key="frame" x="20" y="938.5" width="3724.5" height="20"/>
+                                <fontDescription key="fontDescription" type="system" weight="light" pointSize="16"/>
+                                <color key="textColor" red="0.0" green="0.20784313730000001" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="justified" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="rJQ-P5-wvy">
+                                <rect key="frame" x="20" y="978.5" width="3724.5" height="19.5"/>
+                                <string key="text">Gringa started life out as a Food truck, one of the first in Barcelona, a blue Citroen called Eureka Street Food. Run by Priscilla, a native Californian, and Gascon. After five years, they acquired a new partner, Juan and found their location in the Raval.  A barrio in flux with many faces: principally a migrant neighborhood, with investment funds buying up entire buildings and leaving them empty – useful for ‘drug flats’. Things are changing, Barcelona is booming and El Raval and its attractive rents are becoming a real contender.</string>
+                                <fontDescription key="fontDescription" type="system" weight="light" pointSize="16"/>
+                                <color key="textColor" red="0.3294117647" green="0.3294117647" blue="0.3294117647" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="sPi-VS-Bfg" firstAttribute="leading" secondItem="13a-5l-a4W" secondAttribute="leading" constant="20" id="0cT-a9-tPa"/>
+                            <constraint firstItem="y77-IO-uhd" firstAttribute="leading" secondItem="13a-5l-a4W" secondAttribute="leading" constant="20" id="1xT-eU-npC"/>
+                            <constraint firstAttribute="trailing" secondItem="IHS-O8-fi8" secondAttribute="trailing" constant="20" id="2bk-dg-bps"/>
+                            <constraint firstItem="BPn-ef-C3Q" firstAttribute="leading" secondItem="13a-5l-a4W" secondAttribute="leading" constant="20" id="4tw-2G-8rs"/>
+                            <constraint firstItem="jeu-ob-hhj" firstAttribute="top" secondItem="sPi-VS-Bfg" secondAttribute="bottom" constant="20" id="8NQ-JT-N1P"/>
+                            <constraint firstItem="mwU-L5-VnJ" firstAttribute="leading" secondItem="13a-5l-a4W" secondAttribute="leading" constant="20" id="ASa-AX-xWt"/>
+                            <constraint firstItem="ZO6-wy-eSJ" firstAttribute="top" secondItem="vpZ-wE-H1X" secondAttribute="bottom" constant="37" id="Ct0-bB-FKE"/>
+                            <constraint firstAttribute="trailing" secondItem="rJQ-P5-wvy" secondAttribute="trailing" constant="20" id="FGh-Za-6gt"/>
+                            <constraint firstItem="sPi-VS-Bfg" firstAttribute="top" secondItem="ZO6-wy-eSJ" secondAttribute="bottom" constant="6" id="IS3-bn-lkf"/>
+                            <constraint firstAttribute="trailing" secondItem="sPi-VS-Bfg" secondAttribute="trailing" constant="20" id="JnO-Qf-q03"/>
+                            <constraint firstItem="vpZ-wE-H1X" firstAttribute="top" secondItem="y77-IO-uhd" secondAttribute="bottom" constant="22" id="LCJ-0k-pFu"/>
+                            <constraint firstItem="rJQ-P5-wvy" firstAttribute="top" secondItem="IHS-O8-fi8" secondAttribute="bottom" constant="20" id="MJu-ma-Vfl"/>
+                            <constraint firstItem="y77-IO-uhd" firstAttribute="top" secondItem="13a-5l-a4W" secondAttribute="top" constant="32" id="NPZ-hp-aEU"/>
+                            <constraint firstAttribute="trailing" secondItem="ZO6-wy-eSJ" secondAttribute="trailing" constant="20" id="NqQ-FJ-ie8"/>
+                            <constraint firstItem="jeu-ob-hhj" firstAttribute="leading" secondItem="13a-5l-a4W" secondAttribute="leading" id="XV3-ql-0dp"/>
+                            <constraint firstAttribute="bottom" secondItem="rJQ-P5-wvy" secondAttribute="bottom" constant="28" id="afD-GO-UFi"/>
+                            <constraint firstAttribute="trailing" secondItem="jeu-ob-hhj" secondAttribute="trailing" id="cP8-Ib-saf"/>
+                            <constraint firstAttribute="trailing" secondItem="mwU-L5-VnJ" secondAttribute="trailing" constant="20" id="dML-Gh-Qys"/>
+                            <constraint firstItem="IHS-O8-fi8" firstAttribute="top" secondItem="mwU-L5-VnJ" secondAttribute="bottom" constant="8" id="eKU-O1-Avq"/>
+                            <constraint firstItem="vpZ-wE-H1X" firstAttribute="leading" secondItem="13a-5l-a4W" secondAttribute="leading" constant="20" id="eZ8-Lq-IK9"/>
+                            <constraint firstItem="IHS-O8-fi8" firstAttribute="leading" secondItem="13a-5l-a4W" secondAttribute="leading" constant="20" id="gmP-sK-47G"/>
+                            <constraint firstItem="mwU-L5-VnJ" firstAttribute="top" secondItem="BPn-ef-C3Q" secondAttribute="bottom" constant="18" id="l2l-Cp-NRS"/>
+                            <constraint firstItem="rJQ-P5-wvy" firstAttribute="leading" secondItem="13a-5l-a4W" secondAttribute="leading" constant="20" id="mHX-AT-MyE"/>
+                            <constraint firstItem="ZO6-wy-eSJ" firstAttribute="leading" secondItem="13a-5l-a4W" secondAttribute="leading" constant="20" id="rVA-ul-yO1"/>
+                            <constraint firstItem="BPn-ef-C3Q" firstAttribute="top" secondItem="jeu-ob-hhj" secondAttribute="bottom" constant="24" id="vnl-r6-Ft9"/>
+                        </constraints>
+                    </view>
+                </subviews>
+                <constraints>
+                    <constraint firstItem="13a-5l-a4W" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" id="FRE-K6-sxm"/>
+                    <constraint firstItem="13a-5l-a4W" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" id="NyV-OQ-VET"/>
+                    <constraint firstAttribute="trailing" secondItem="13a-5l-a4W" secondAttribute="trailing" id="ev7-d8-zWf"/>
+                    <constraint firstAttribute="bottom" secondItem="13a-5l-a4W" secondAttribute="bottom" id="hoI-CP-NyF"/>
+                </constraints>
+            </tableViewCellContentView>
+            <viewLayoutGuide key="safeArea" id="njF-e1-oar"/>
+            <connections>
+                <outlet property="orderTableView" destination="mwU-L5-VnJ" id="SgY-2d-jAO"/>
+                <outlet property="restaurantAbout" destination="rJQ-P5-wvy" id="ap3-7Q-Qa2"/>
+                <outlet property="restaurantAddress" destination="ZO6-wy-eSJ" id="epJ-oj-u19"/>
+                <outlet property="restaurantImage" destination="jeu-ob-hhj" id="FPx-Xx-4IO"/>
+                <outlet property="restaurantTitle" destination="vpZ-wE-H1X" id="o2n-GG-kUC"/>
+            </connections>
+            <point key="canvasLocation" x="169.56521739130437" y="403.79464285714283"/>
+        </tableViewCell>
+    </objects>
+    <resources>
+        <image name="Image" width="346" height="143"/>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+    </resources>
+</document>

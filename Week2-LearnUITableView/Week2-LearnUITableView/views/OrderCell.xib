@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="19529" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="19519"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="orderCell" id="KGk-i7-Jjw" customClass="OrderCell" customModule="Week2_LearnUITableView" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="gmA-VJ-qpH">
+                        <rect key="frame" x="8" y="8" width="245" height="28"/>
+                        <fontDescription key="fontDescription" type="system" weight="light" pointSize="16"/>
+                        <color key="textColor" red="0.3294117647" green="0.3294117647" blue="0.3294117647" alpha="1" colorSpace="calibratedRGB"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="252" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="gVv-5U-JNM">
+                        <rect key="frame" x="273" y="8" width="39" height="28"/>
+                        <fontDescription key="fontDescription" type="system" weight="light" pointSize="16"/>
+                        <color key="textColor" red="0.3294117647" green="0.3294117647" blue="0.3294117647" alpha="1" colorSpace="calibratedRGB"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                </subviews>
+                <constraints>
+                    <constraint firstItem="gVv-5U-JNM" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" constant="8" id="9Xm-RX-AEd"/>
+                    <constraint firstItem="gVv-5U-JNM" firstAttribute="leading" secondItem="gmA-VJ-qpH" secondAttribute="trailing" constant="20" id="Low-o3-urd"/>
+                    <constraint firstAttribute="bottom" secondItem="gVv-5U-JNM" secondAttribute="bottom" constant="8" id="ZcR-8N-Ghw"/>
+                    <constraint firstAttribute="bottom" secondItem="gmA-VJ-qpH" secondAttribute="bottom" constant="8" id="fqN-RR-FWe"/>
+                    <constraint firstItem="gmA-VJ-qpH" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" constant="8" id="gnH-nT-SSW"/>
+                    <constraint firstAttribute="trailing" secondItem="gVv-5U-JNM" secondAttribute="trailing" constant="8" id="ton-Pd-job"/>
+                    <constraint firstItem="gmA-VJ-qpH" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="8" id="wsu-gr-U5l"/>
+                </constraints>
+            </tableViewCellContentView>
+            <viewLayoutGuide key="safeArea" id="njF-e1-oar"/>
+            <connections>
+                <outlet property="menuOrderLabel" destination="gmA-VJ-qpH" id="SNL-pt-JCs"/>
+                <outlet property="priceOrderLabel" destination="gVv-5U-JNM" id="mAa-vj-Xt5"/>
+            </connections>
+            <point key="canvasLocation" x="132" y="76"/>
+        </tableViewCell>
+    </objects>
+</document>
