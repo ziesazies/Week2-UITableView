@@ -115,6 +115,36 @@
             </objects>
             <point key="canvasLocation" x="2886" y="74"/>
         </scene>
+        <!--Detail Restaurant Section View Controller-->
+        <scene sceneID="TQL-or-MD7">
+            <objects>
+                <viewController storyboardIdentifier="restaurantDetailSection" id="hHM-cd-mAo" customClass="DetailRestaurantSectionViewController" customModule="Week2_LearnUITableView" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="P5g-w9-Pqx">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="-1" estimatedSectionHeaderHeight="-1" sectionFooterHeight="-1" estimatedSectionFooterHeight="-1" translatesAutoresizingMaskIntoConstraints="NO" id="FA8-jn-wlS">
+                                <rect key="frame" x="0.0" y="44" width="414" height="818"/>
+                                <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                            </tableView>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="9mO-Hj-7iZ"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="9mO-Hj-7iZ" firstAttribute="bottom" secondItem="FA8-jn-wlS" secondAttribute="bottom" id="6zz-IA-7ax"/>
+                            <constraint firstItem="9mO-Hj-7iZ" firstAttribute="trailing" secondItem="FA8-jn-wlS" secondAttribute="trailing" id="Y8A-kf-ziO"/>
+                            <constraint firstItem="FA8-jn-wlS" firstAttribute="top" secondItem="9mO-Hj-7iZ" secondAttribute="top" id="aOQ-8J-CR8"/>
+                            <constraint firstItem="FA8-jn-wlS" firstAttribute="leading" secondItem="9mO-Hj-7iZ" secondAttribute="leading" id="gOR-nQ-VHp"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="detailTableView" destination="FA8-jn-wlS" id="mDP-My-Tfp"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="ci9-pM-2rs" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2864" y="806"/>
+        </scene>
         <!--Navigation Controller-->
         <scene sceneID="nO9-nH-suA">
             <objects>

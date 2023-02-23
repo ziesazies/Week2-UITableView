@@ -72,7 +72,8 @@ extension RestaurantListViewController : UITableViewDelegate, UITableViewDataSou
 //        if let detail = storyboard.instantiateViewController(withIdentifier: "restaurantDetail") as? DetailRestaurantViewController{
 //            self.navigationController?.pushViewController(detail, animated: true)}
         
-        navigateToDetail(restaurantList[indexPath.row])
+//        navigateToDetail(restaurantList[indexPath.row])
+        navigateToDetailSection(restaurantList[indexPath.row])
     }
 }
 
